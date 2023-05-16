@@ -31,7 +31,7 @@ This is the README for the Api Pokédex. For the development of this project was
 
 ## Deploy
 
-The website has been deployed on a GitHub pages server and is available at the following URL: https://alh-19.github.io/
+The website has been deployed on a GitHub pages server and is available at the following URL: https://alh-19.github.io/Api-Pokedex/
 
 ## Links
 
