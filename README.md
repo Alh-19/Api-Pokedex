@@ -37,7 +37,7 @@ The website has been deployed on a GitHub pages server and is available at the f
 
 [Github](https://github.com/Alh-19/Api-Pokedex.git)
 [Figma](https://www.figma.com/file/WqeLn2AvFJyU8uGOqnJEK6/Api-Pok%C3%A9mon?type=design&node-id=1-2&t=vU70DWeD5qu2YmjK-0)
-[SWAPI](https://pokeapi.co/)
+[PokeApi](https://pokeapi.co/)
 [Trello](https://trello.com/b/IFNO1lhM/api-pkmn#)
 
 ## Author
