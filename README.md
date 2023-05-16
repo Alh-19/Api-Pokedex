@@ -29,6 +29,10 @@ This is the README for the Api Pokédex. For the development of this project was
 - The information of a single Pokémon can be viewed in detail by selecting it from the list.
 - The GitHub link and the design in Figma are available on the readme.
 
+## Deploy
+
+The website has been deployed on a GitHub pages server and is available at the following URL: https://alh-19.github.io/
+
 ## Links
 
 [Github](https://github.com/Alh-19/Api-Pokedex.git)
