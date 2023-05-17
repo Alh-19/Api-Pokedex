@@ -39,7 +39,7 @@ export const PokemonProvider = ({ children }) => {
     //Llamar a todos los pkmn
     const getGlobalPokemons = async() => {
         const baseURL = 'https://pokeapi.co/api/v2/';
-
+        
         const res = await fetch(
             `${baseURL}pokemon?limit=100000&offset=0`
         );

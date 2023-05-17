@@ -7,6 +7,8 @@ import { Loader } from '../components';
 export const PokemonPage = () => {
     const {getPokemonByID} = useContext(PokemonContext);
 
+	const species = 'https://pokeapi.co/api/v2/pokemon-species/';
+
     const [loading, setLoading] = useState(true);
     const [pokemon, setPokemon] = useState({});
 
@@ -50,10 +52,19 @@ export const PokemonPage = () => {
 								<div className='group-info'>
 									<p>Altura</p>
 									<span>{pokemon.height} dm.</span>
+									<p>Sprites</p>
+									<div>
+										<img src={pokemon.sprites.front_default} /> 
+										<img src={pokemon.sprites.back_default} />
+									</div>
+									{/* <p>Description</p>
+									<span>{primerMayuscula(species)} </span> */}
 								</div>
 								<div className='group-info'>
 									<p>Peso</p>
 									<span>{pokemon.weight} Kg.</span>
+									<p>Habilidad</p>
+									<span>{primerMayuscula(pokemon.abilities.map(ability => ability.ability.name).join(', '))}.</span>
 								</div>
 							</div>
 						</div>

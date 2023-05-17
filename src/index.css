@@ -411,7 +411,8 @@ Styles of Pokemon Single Page
 	margin-left: 25px;
 	order: 1;
 	flex: 1;
-	margin-top: 20px;
+	margin-top: 100px;
+	
 }
 
 .info-pokemon-type{

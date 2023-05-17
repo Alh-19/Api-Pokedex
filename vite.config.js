@@ -7,5 +7,5 @@ export default defineConfig({
     port: 3000
   },
   plugins: [react()],
-  base: "/Api-Pokedex/"
+  base: "/Api-Pokedex/",
 });
